@@ -8,9 +8,9 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="./style.css">
 </head>
-<body class="container-md">
+<body class="container-fluid">
     <nav class="navbar navbar-expand-lg navbar-light bg-light container-fluid">
-        <div class="container">
+        <div class="">
           <a class="navbar-brand" href="#">Portfolio</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -32,7 +32,7 @@
                     </li>
             </div>
             <div class="navicon">
-                <img src="./assets/emoji-sunglasses.svg" alt="ICON" srcset="" height="30">
+                <img src="./emoji-sunglasses.svg" alt="ICON" srcset="" height="30">
             </div>
               
             
@@ -40,69 +40,32 @@
         </div>
       </nav>
     <section id="Home">
-        <div class="container hero1">
+        <div class="container-fluid hero1">
           <div class="name">
-            <h1>Ben Stokes</h1>
-            <p>Web Designer AND Web developer</p>
+            <h1 >Ben Stokes</h1>
+            <p data-aos="flip-right">Web Designer AND Web developer</p>
           </div>
           <div class="face"></div>
           
          
         </div>
-        <div class="small-hero container-sm">
+        <div class="small-hero container-fluid">
 
         </div>
         
-        <div class="small-name container-sm"><h1>Ben Stokes</h1>
+        <div class="small-name container-fluid"><h1>Ben Stokes</h1>
             <p>Web Designer AND Web developer</p>
         </div>
 
          
     </section>
     
-    <section class="skills-projects " id="Projects"> 
-        <div class=" container flex">
-            <div class="row row-cols-1 row-cols-lg-2  g-3" >
-                <div class="col" data-aos="fade-down-right">
-                  <div class="card shadow-sm">
-                    <div class="tindog"></div>
-                    <div class="card-body">
-                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                      <div class="d-flex justify-content-between align-items-center">
-                        <div class="btn-group">
-                          <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                          <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                        </div>
-                        <small class="text-muted">9 mins</small>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="col" data-aos="fade-down-left">
-                    <div class="card shadow-sm">
-                      <div class="moveit container-fluid"></div>
-          
-                      <div class="card-body">
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                        <div class="d-flex justify-content-between align-items-center">
-                          <div class="btn-group">
-                            <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                            <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                          </div>
-                          <small class="text-muted">9 mins</small>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  
    
-              </div>
-            
-        </div>
-    </section>  
+ 
+  
     <section id="skills">
       <div class="container-fluid">
-      <div class=" row row row-cols-1 row-cols-lg-2  g-3 align-items-center justify-content-center  ">
+      <div class=" row row row-cols-1 row-cols-lg-2  g-3 align-items-center justify-content-center mt-5 ">
         
         <div class="html col-8 col-sm m-5"  data-aos="fade-up" ></div>
         <div class="css col-8 col-sm m-5" data-aos="fade-up"></div>
@@ -113,6 +76,16 @@
         
     </div>    
       
+
+    </section>
+
+
+    <section id="projects1 " class="projects1 container-fluid" >
+      <div class="div-tindog"><img src="./Screenshot 2023-11-02 192221.png" alt="" class="tindog" data-aos="flip-right"></div>
+
+    </section>
+    <section id="projects2 " class="projects2 container-fluid">
+      <div class="div-moveit"><img src="./Screenshot 2023-11-02 192457.png" alt="" class="moveit" data-aos="flip-left"></div>
 
     </section>
     <section id="contact">
@@ -127,7 +100,7 @@
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
       AOS.init({
-      offset:100,
+      offset:20,
       duration:800,
       });
     </script>

@@ -74,31 +74,32 @@ body{
     
 }
 .tindog{
-    background-image: url(./Screenshot\ 2023-11-02\ 192221.png);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    height: 400px;
-    min-width: 100px;
+    
+    height: 500px;
+    width: 100%;
+    min-width: 70%;
+    min-height: 50vh;
     /* border: 5px solid burlywood; */
 }
 .moveit{
-    background-image: url(./Screenshot\ 2023-11-02\ 192457.png);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    height: 300px;
-    min-width: 100px;
+   
+    height: 500px;
+    width: 100%;
+    min-width: 70%;
+    min-height: 50vh;
     /* border: 5px solid burlywood; */
 }
 .html{
    /* border: 5px solid burlywood; */
-   height: 400px;
+   height: 600px;
+   width: 400px;
    background-repeat: no-repeat;
-   
+   margin-top: 150px;
    background-image: url(./html.jpeg);
    background-size: 100%;
 }
 .css{
-   height: 400px;
+   height: 600px;
  
    /* border: 5px solid burlywood; */
    background-image: url(web.png);
@@ -106,7 +107,7 @@ body{
    background-size:  100%;
 }
 .bootstrap{
-   height: 400px;
+   height: 600px;
    /* border: 5px solid burlywood; */
    background-image: url(boot.jpg) ;
    background-size: 100%;
@@ -114,7 +115,7 @@ body{
 
 }
 .github{
-   height: 600px;
+   height: 800px;
    
    /* border: 5px solid burlywood; */
    background-image: url(git.jpg) ;
@@ -127,7 +128,7 @@ body{
 }
 .canva-webdesign{
     /* border: 5px solid burlywood; */
-   height: 400px;
+   height: 800px;
    background-image: url(css.jpg) ;
 
    background-repeat: no-repeat;
@@ -156,6 +157,37 @@ body{
     border: 5px solid white;
     padding: 10px;
 }
+.projects1{
+    border: 10px solid red;
+    
+    background-color: rgb(255, 244, 208);
+    
+    
+    height: 600px;
+    
+    margin: 150px;
+    margin-left: 0px;
+    padding: 50px;
+    width: 100%;
+
+}
+.projects2{
+    border: 10px solid red;
+    
+    background-color: rgb(255, 244, 208);
+    
+    height: 600px;
+    
+    margin: 150px;
+    margin-left: 0px;
+
+    padding: 50px;
+    width: 100%;
+
+}
+.img{
+
+}
 
 @media (max-width:960px) {
     .navbar-brand{
@@ -164,7 +196,7 @@ body{
     }
     
 }
-@media (max-width:900px){
+@media (max-width:940px){
     body{
         font-size: 10px;
         
@@ -178,11 +210,12 @@ body{
     .name{
         display: none;
         font-size: 30px;
+
     }
     
     .small-name{
         height: 250px;
-        min-width: 300px;
+        min-width: 100%;
      background-color: bisque;
      
    
@@ -195,8 +228,9 @@ body{
     .small-hero{
         background-image: url(./Vancouver-best-commercial-headshots\ mobile.jpg);
         background-repeat: no-repeat;
-        background-size: cover;
+        background-size: 100%;
         height: 700px;
+        width: 100%;
         
         display: flex;
         min-width: 300px;
@@ -217,6 +251,28 @@ body{
         
     
     
+    }
+    .col{
+        width: 100%;
+    }
+    .tindog{
+        background-image: url(./Screenshot\ 2023-11-02\ 192221.png);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        height: 400px;
+        min-width: 100%;
+        
+        /* border: 5px solid burlywood; */
+    }
+    .moveit{
+        background-image: url(./Screenshot\ 2023-11-02\ 192457.png);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        height: 300px;
+        min-width: 100%;
+      
+        
+        /* border: 5px solid burlywood; */
     }
     
 }
